@@ -12,3 +12,9 @@ post_caculate.py: inputs: (1) model name (2) It will caculate the 23 24 dataset 
 
 Caculate Ensemble classifier accuracy:
 post_vote.py inputs: (1) not inputs
+
+TextBlob:
+textBlob.py: inputs (1) json files
+
+TextBlob Accuracy:
+text_blob_accuracy.py: inputs (1) prediction score from textblob

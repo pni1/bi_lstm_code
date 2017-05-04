@@ -1,0 +1,14 @@
+Data preprocess:
+paser_dataset.py: inputs: (1) Json file, details see functions in scripts
+
+Training Step:
+bi_lstm_long.py: inputs: (1) sequence matrix (2) label matrix (3) number of epoches
+
+Test Step:
+bi_lstm_predict.py: inputs: (1) sequence need to be predict (2) model have been trained in training step
+
+Caculate small classifier's accuracy:
+post_caculate.py: inputs: (1) model name (2) It will caculate the 23 24 dataset automatically
+
+Caculate Ensemble classifier accuracy:
+post_vote.py inputs: (1) not inputs
